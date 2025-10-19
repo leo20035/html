@@ -100,21 +100,21 @@
 <body>
 
     <h1 style="text-align: center; color: #007bff;">基北北桃1200月票週期計算機</h1>
-    <p style="text-align: center; color: #666;">點擊日曆上的日期，即可計算並標示後續 14 個月票週期（每 30 天）</p>
+    <p style="text-align: center; color: #666;">點擊日曆上的日期，即可計算並標示後續 16 個月票週期（每 30 天）</p>
 
+    <div id="calendar-container">
+    </div>
+    
     <div id="info-panel">
         <p id="selected-date-info">請點擊一個日期作為您的月票啟用日。</p>
         <p id="period-info"></p>
     </div>
 
-    <div id="calendar-container">
-        </div>
-
     <script>
         // 設定每張月票的有效天數
         const PERIOD_DAYS = 30;
         // 日曆顯示的月數
-        const MONTHS_TO_DISPLAY = 14; 
+        const MONTHS_TO_DISPLAY = 16; 
         
         // 週的名稱
         const dayNames = ['日', '一', '二', '三', '四', '五', '六'];
